@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Wijn Favorieten</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a id ="myBtn1" href="#pagina1"> Pagina1 </a>
+    <a id ="myBtn2" href="#pagina2">Pagina2</a>
+    <a id ="myBtn3" href="#pagina3">Pagina3</a>
+
+</div>
+<!--<button id="myBtn">Try it</button>-->
+<!--<p id="demo"></p>-->
+
+<div class="card">
+    <img class="img-container" src="images/proost.jpg" alt="Twee wijnglazen proosten" width="50px">
+     <div id="filter-bar">
+            <label>Filter op:</label>
+            <select name="name" id="name">
+                <option value="" selected="">Select</option>
+            </select>
+            <label>Sortering:</label>
+            <button onclick="Oplopend()">Oplopend</button>
+            <button onclick="Aflopend()">Aflopend</button>
+        </div>
+</div>
+
+
+<div class="flex-container-items" id="wijn-template">
+
+
+
+
+</div>
+<div
+        class = "pagina nummer" id="pagination"
+></div>
+
+<script src="main.js"></script>
+</body>
+</html>
